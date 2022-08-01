@@ -27,12 +27,100 @@
 .App-link {
   color: #61dafb;
 }
+.carousel{
+  margin-top: -45px;
+  font-variant: normal;
+}
 
+.aboutus{
+  margin-top: -55px;
+  margin-bottom: 30px;
+}
+.imgposition{
+  margin-left: -260px;
+}
+.feature{
+  box-shadow: 4px 4px 4px 4px rgba(100, 100, 100, 0.308);
+  padding-top: 40px;
+}
+.destination{
+  margin-top: -60px;
+}
+.Services{
+  box-shadow: 5px 5px 5px rgba(100, 100, 100, 0.308);
+  margin-top: -60px;
+}
+.registration{
+  margin-top: -100px;
+}
+.teamguide{
+  margin-top: -100px;
+}
+.sayclients{
+  margin-top: -100px;
+}
+.blog{
+  margin-top: -125px;
+  margin-bottom: -100px;
+}
+.scroll-to-top{
+ background-color: #7ab730 !important;
+ height: 47px !important;
+ width: 47px !important;
+ z-index: 20 !important;
+ border-radius: 0 !important;
+}
+.scroll-to-top svg{
+  fill: #ffffff !important;
+ }
+.carousel-status{
+  display: none;
+}
+.contact{
+  box-shadow: 5px 5px 5px rgba(100, 100, 100, 0.308);
+}
+.dropdown-toggle {
+  display: none;
+  text-align: center;
+}
+.dropdown-toggle a{
+  margin-top: -6px;
+  
+}
+.dropdown-toggle {
+  background-color: #ffffff !important;
+  border-color: #ffffff !important;
+}
+.dropdown-toggle::after {
+  display: none !important;
+}
+.dropdown-item:hover{
+  color: #ffffff !important;
+  background-color: #7ab730 !important;
+}
+.dropdownicon{
+  position: fixed !important;
+  display: block !important;
+}
+.title{
+  
+  color: #7ab730 !important;
+}
+.spinner-grow{
+  position: fixed;
+  top: 120px;
+  left: 650px;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
+  }
+}
+@media only screen and (max-width: 760px) {
+  .imgposition{
+     margin-left: -210px ; 
   }
 }
