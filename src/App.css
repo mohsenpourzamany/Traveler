@@ -76,6 +76,9 @@
 .carousel-status{
   display: none;
 }
+.carousel-caption{
+  background: rgba(35, 35, 35, 0.318) !important;
+}
 .contact{
   box-shadow: 5px 5px 5px rgba(100, 100, 100, 0.308);
 }
@@ -110,6 +113,13 @@
   position: fixed;
   top: 120px;
   left: 650px;
+}
+.carousel-fade .carousel-item{
+  transition-property:none !important ;
+}
+.carousel-fade .carousel-item.active{
+  opacity: 1 !important;
+  /* transition-property:none !important ; */
 }
 @keyframes App-logo-spin {
   from {

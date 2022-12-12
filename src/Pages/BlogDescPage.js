@@ -34,10 +34,12 @@ const BlogDescPage = () => {
       <Booking />
       <div class="container-fluid py-5">
         <div class="container py-5">
-          <div class="row">
+            <div class="row">
+                <div class="col-lg-8">
             <BlogDesc />
             <CommentList />
             <CommentForm />
+            </div>
             <div class="col-lg-4 mt-5 mt-lg-0">
               <Author />
               <SearchForm />

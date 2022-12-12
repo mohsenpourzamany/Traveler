@@ -19,7 +19,7 @@ import Spinner from './UI/Spinner';
 import {useEffect , useState} from 'react';
 function App() {
 
-  const[data,setData] = useState([])
+  // const[data,setData] = useState([])
   const[loading , setLoading] = useState(false)
 
   useEffect(()=>{
