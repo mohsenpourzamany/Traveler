@@ -33,6 +33,7 @@ const Navbar = () => {
                             </Dropdown.Menu>
                         </Dropdown>
                         <Link to="contactpage" className="nav-item nav-link">Contact</Link>
+                        <Link to="profilpage" className="nav-item nav-link">Profile</Link>
                     </div>
                 </div>
             </nav>

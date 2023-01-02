@@ -17,6 +17,7 @@ import TravelGuide from './Pages/TravelGuide';
 import SayClientsPage from './Pages/SayClientsPage';
 import Spinner from './UI/Spinner';
 import {useEffect , useState} from 'react';
+import ProfilePage from './Pages/ProfilePage';
 function App() {
 
   // const[data,setData] = useState([])
@@ -52,6 +53,7 @@ function App() {
           <Route path='/travelguide'  element={<TravelGuide/>} />
           <Route path='/sayclientpage'  element={<SayClientsPage/>} />
           <Route path='/contactpage'  element={<ContactPage/>} />
+          <Route path='/profilpage'  element={<ProfilePage/>} />
         </Routes>
         <Footer />
         <Socket />

@@ -2,7 +2,7 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 import Booking from '../Component/Booking'
 import Destination from '../Component/Destination'
-import Packages from '../Component/Packages'
+import Packages from '../Component/package/Packages';
 
 const PackagePage = () => {
   return (

@@ -28,7 +28,7 @@ function packageReducer (state = initialState , action ) {
         case PackageRemove :
             return { ...state , items : state.items.filter((q)=> q.id !==action.payload)}
         default:
-            break               
+            return state               
     }     
     
 }
