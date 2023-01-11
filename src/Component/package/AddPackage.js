@@ -1,8 +1,13 @@
 import React from "react";
+// import { useDispatch, useSelector } from "react-redux";
+// import { PackageGetAll , PackageById , PackageAdd , PackageRemove , PackageEdit } from "../../state/actions/packageAction";
+// import { packageState} from '../../state/reducers/index';
 
 const AddPackage = () => {
+
   return (
     <form className="row g-3 addpackage">
+      <h1 style={{color:'#28a745'}}>Submit packages</h1>
       <div className="col-md-4">
         <label for="validationServer01" className="form-label">
           Country
